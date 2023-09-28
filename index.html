@@ -159,19 +159,19 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="personAge">* Person Age</label>
-                                            <input type="number" class="form-control" id="personAge" placeholder="Enter person's age">
+                                            <input type="number" name="personAge" class="form-control" id="personAge" placeholder="Enter person's age">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label for="income">* Income ($)</label>
-                                            <input type="number" class="form-control" id="income" placeholder="Enter income">
+                                            <label for="income">* Annual Income ($)</label>
+                                            <input type="number" name="income" class="form-control" id="income" placeholder="Enter income">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="homeOwner">* Homeowner Status</label>
-                                            <select class="form-control" id="homeOwner">
+                                            <select class="form-control" id="homeOwner" name="homeOwner">
                                                 <option value="">Select Homeowner Status</option>
                                                 <option value="Own">Own</option>
                                                 <option value="Rent">Rent</option>
@@ -181,43 +181,44 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="employmentLength">* Employment Length</label>
-                                            <input type="number" class="form-control" id="employmentLength" placeholder="Enter employment length (in years)">
+                                            <input type="number" name="employmentLength" class="form-control" id="employmentLength" placeholder="Enter employment length (in years)">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="loanIntent">* Loan Intent</label>
-                                            <input type="text" class="form-control" id="loanIntent" placeholder="Enter loan intent">
+                                            <input type="text" name="loanIntent" class="form-control" id="loanIntent" placeholder="Enter loan intent">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="loanGrade">* Loan Grade</label>
-                                            <input type="text" class="form-control" id="loanGrade" placeholder="Enter loan grade">
+                                            <input type="text" name="loanGrade" class="form-control" id="loanGrade" placeholder="Enter loan grade">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="loanAmount">* Loan Amount ($)</label>
-                                            <input type="number" class="form-control" id="loanAmount" placeholder="Enter loan amount">
+                                            <input type="number" name="loanAmount" class="form-control" id="loanAmount" placeholder="Enter loan amount">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <label for="interestRate">* Interest Rate (%)</label>
-                                            <input type="number" class="form-control" id="interestRate" placeholder="Enter interest rate">
+                                            <input type="number" name="interestRate" class="form-control" id="interestRate" placeholder="Enter interest rate">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="loanPercentIncome">* Percent income (%)</label>
+                                            <input type="number" name="loanPercentIncome" class="form-control" id="loanPercentIncome" placeholder="Enter loan-to-income ratio">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label for="loanStatus">* Loan Status</label>
-                                            <input type="text" class="form-control" id="loanStatus" placeholder="Enter loan status">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="loanPercentIncome">* Loan-to-Income Ratio (%)</label>
-                                            <input type="number" class="form-control" id="loanPercentIncome" placeholder="Enter loan-to-income ratio">
+                                            <label for="cb_preson_cred_hist_length">* Credit history length (%)</label>
+                                            <input name="cbPersonCredHistLength" type="number" class="form-control" id="cb_preson_cred_hist_length" placeholder="">
                                         </div>
                                     </div>
                                 </div>
@@ -226,6 +227,8 @@
                                     <button type="submit" class="btn btn-primary">APPLY NOW</button>
                                 </div>
                             </form>
+                            
+
                             <!-- End Form -->
                         </div>
                     </div>
@@ -250,5 +253,17 @@
 
     <!-- Add your custom scripts here -->
 
+
+    <!-- Add this script at the bottom of your HTML file, just before the </body> tag -->
+
+  <!-- Add this script at the bottom of your HTML file, just before the </body> tag -->
+
+
+  <!-- Add this script at the bottom of your HTML file, just before the </body> tag -->
+
+
+
+
 </body>
+
 </html>
